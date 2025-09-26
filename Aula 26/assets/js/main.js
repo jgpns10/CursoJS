@@ -79,6 +79,6 @@ function setResultado(msg, isValid) {
         p.classList.add('bad');
     }
 
-    p.innerHTML = msg       // eSetar o InnerHTML com a mensagem
+    p.innerHTML = msg       // Setar o InnerHTML com a mensagem
     resultado.appendChild(p)    // Adicionou no parágrafo
 }

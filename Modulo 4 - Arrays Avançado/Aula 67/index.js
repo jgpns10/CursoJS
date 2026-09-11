@@ -11,7 +11,6 @@ const total = numeros.reduce(function (acumulador, valor) {
     }                      
     return acumulador;                                                      // Reduce
 }, 0);
-console.log(total)
 
 
 const pares = numeros.reduce(function (acumulador, valor) {
@@ -19,13 +18,11 @@ const pares = numeros.reduce(function (acumulador, valor) {
     return acumulador;                                                      // Filter       ---> Não usar reduce pra fazer oq o filter e map faria facilmente
 
 }, []);
-console.log(pares)
 
 const dobro = numeros.reduce(function (acumulador, valor) {
     acumulador.push(valor * 2);
     return acumulador;                                 
 }, []);
-console.log(dobro)
 
 
 

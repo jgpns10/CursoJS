@@ -25,11 +25,6 @@ const dobro = numeros.reduce(function (acumulador, valor) {
 }, []);
 
 
-
-
-
-
-
 const pessoas = [
     { nome: 'João', idade: 20 },
     { nome: 'Maria', idade: 62 },
